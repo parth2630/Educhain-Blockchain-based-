@@ -1,0 +1,208 @@
+# Blockchain Payment System User Guide
+
+## Overview
+This platform is a comprehensive blockchain-based payment system that allows users to manage various financial transactions including fee payments, payroll processing, fund allocation, and scholarship management. The system is built on the Ethereum blockchain, ensuring secure and transparent transactions.
+
+## Getting Started
+
+### 1. Home Page
+- The landing page provides an overview of the platform's features
+- Features section highlights key functionalities:
+  * Fee Payments
+  * Payroll Processing
+  * Fund Allocation
+  * Scholarship Management
+- Benefits section showcases platform advantages:
+  * Secure Transactions
+  * Instant Processing
+  * Global Access
+- Connect your wallet to begin using the platform
+
+### 2. Wallet Connection
+- Click "Connect Wallet" on the home page
+- Select your preferred wallet (MetaMask recommended)
+- Approve the connection request
+- Your wallet address will be displayed once connected
+
+## Core Features
+
+### 1. Admin Dashboard
+- Access comprehensive university management features
+- View real-time statistics:
+  * Total number of registered students
+  * Total payments processed
+  * Total scholarships granted
+  * Total revenue in ETH
+- Register new students:
+  * Enter student wallet address
+  * Provide student name
+  * Assign student ID
+- Monitor system performance
+- Real-time updates for all metrics
+- Error handling and loading states
+- Role-based access control
+
+### 2. Fee Payment
+- Navigate to the Fee Payment page
+- Enter payment details:
+  * Recipient address
+  * Payment amount (in ETH)
+  * Optional description
+- Review and confirm transaction
+- Track payment status
+- View transaction history
+
+### 3. Payroll Processing
+- Access the Payroll page
+- Enter employee details:
+  * Employee ID
+  * Payment amount
+  * Department
+  * Optional description
+- Review payroll information
+- Process payments
+- Monitor transaction status
+- View payroll history
+
+### 4. Fund Allocation
+- Go to the Fund Allocation page
+- Enter allocation details:
+  * Project ID
+  * Allocation amount
+  * Category
+  * Description
+- Review allocation information
+- Process fund transfer
+- Track allocation status
+- View allocation history
+
+### 5. Scholarship Management
+- Navigate to the Scholarship page
+- Submit scholarship applications:
+  * Student information
+  * Academic details
+  * Required documents
+  * Amount requested
+- Track application status
+- View scholarship history
+- Manage disbursements
+
+## Transaction Management
+
+### Viewing Transactions
+- Access the Transactions page
+- View all transaction history
+- Filter transactions by:
+  * Type (Payment, Payroll, Fund Allocation, Scholarship)
+  * Date range
+  * Amount
+- View detailed transaction information
+- Export transaction history
+
+### Transaction Details
+Each transaction includes:
+- Transaction type
+- Amount
+- Date and time
+- Description
+- Status
+- Transaction hash
+- Sender/recipient addresses
+
+## Security Features
+
+### Wallet Security
+- Secure wallet connection using MetaMask
+- Transaction confirmation requirements
+- Address verification
+- Balance monitoring
+- Role-based access control for admin functions
+
+### Transaction Security
+- Blockchain-based security
+- Transparent transaction history
+- Immutable records
+- Real-time status updates
+- Smart contract validation
+
+## Environment Setup
+
+### Configuration
+- Set up environment variables in .env file:
+  * VITE_CONTRACT_ADDRESS: Deployed contract address
+  * VITE_SEPOLIA_RPC_URL: Sepolia network RPC URL
+- Configure Vite for development:
+  * Port: 3001
+  * Environment variables handling
+  * TypeScript support
+
+### Development
+- Install dependencies:
+  * React and TypeScript
+  * Ethers.js for blockchain interaction
+  * Tailwind CSS for styling
+  * Vite for development server
+- Run development server:
+  * npm run dev
+  * Access at http://localhost:3001
+
+## Best Practices
+
+### Before Making Transactions
+1. Ensure sufficient wallet balance
+2. Verify recipient addresses
+3. Double-check transaction amounts
+4. Review transaction details
+5. Confirm network fees
+
+### During Transactions
+1. Wait for confirmation
+2. Monitor transaction status
+3. Save transaction hashes
+4. Keep records of important transactions
+
+### After Transactions
+1. Verify transaction completion
+2. Check wallet balance
+3. Review transaction history
+4. Save receipts/confirmations
+
+## Troubleshooting
+
+### Common Issues
+1. Failed Transactions
+   - Check wallet balance
+   - Verify network connection
+   - Ensure correct recipient address
+   - Confirm sufficient gas fees
+
+2. Pending Transactions
+   - Wait for network confirmation
+   - Check network congestion
+   - Verify transaction status
+
+3. Wallet Connection Issues
+   - Refresh the page
+   - Check MetaMask connection
+   - Verify network settings
+   - Clear browser cache if needed
+
+### Support
+- Contact support for technical issues
+- Report suspicious activities
+- Request transaction assistance
+- Get help with wallet management
+
+## Additional Resources
+
+### Helpful Links
+- MetaMask Installation Guide
+- Transaction Fee Calculator
+- Network Status Page
+- Support Documentation
+
+### Contact Information
+- Support Email
+- Help Center
+- Community Forum
+- Documentation Portal 
